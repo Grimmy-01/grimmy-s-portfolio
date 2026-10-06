@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# Keep private credentials and rate-limit data inaccessible over HTTP.
+<FilesMatch "^\.env$">
+  Require all denied
+</FilesMatch>
+
+# Send the JSON API endpoints to the PHP backend on Apache/PHP hosts.
+RewriteRule ^api/admin/session/?$ api/router.php [END,QSA]
+RewriteRule ^api/content/?$ api/router.php [END,QSA]
+RewriteRule ^api/contact/status/?$ api/router.php [END,QSA]
+RewriteRule ^api/contact/?$ api/router.php [END,QSA]
+
+# Serve the single-page app for its clean page URLs on Apache shared hosting.
+RewriteRule ^(about|education|work|interests|contact|edit)/?$ index.html [L]

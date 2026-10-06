@@ -1,0 +1,59 @@
+{
+  "name": "Saugat Pokhrel",
+  "role": "BCA student · curious learner",
+  "location": "Sunwal, Lumbini Province, Nepal",
+  "email": "saugatpokhrel069@gmail.com",
+  "portrait": "/assets/saugat-portrait.jpg",
+  "intro": "I’m a first-year BCA student from Sunwal who enjoys learning how things work — from websites and computers to the little details that make a good idea come alive.",
+  "socials": {
+    "discordServer": "https://discord.gg/WPa9QeYBWS",
+    "instagram": "https://www.instagram.com/known_as_grimmy/",
+    "discordProfile": "https://discord.com/users/1225830906284085329",
+    "github": "https://github.com/Grimmy-01",
+    "linkedin": "https://www.linkedin.com/in/saugatpokhrel"
+  },
+  "programmingLanguages": [
+    "JavaScript",
+    "C",
+    "C++",
+    "HTML",
+    "CSS",
+    "Python"
+  ],
+  "skills": [
+    "Responsive web design",
+    "Photo & video editing",
+    "Graphic design · basic",
+    "Computer hardware",
+    "Basic networking",
+    "Troubleshooting"
+  ],
+  "hobbies": [
+    "Gaming",
+    "Music",
+    "PCs and computer hardware",
+    "Cooking",
+    "Pen spinning"
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Computer Applications",
+      "place": "Butwal Kalika Campus · Butwal, Nepal",
+      "date": "2026 — 2030 expected",
+      "detail": "First year. Coursework includes Mathematics, Programming in C, Digital Logic, Computer Hardware, Professional Communication and Ethics, and Computer Fundamentals."
+    },
+    {
+      "title": "Higher Secondary · Grade 12",
+      "place": "Oxford Secondary School · Butwal, Rupandehi, Nepal",
+      "date": "2025",
+      "detail": "Second place in an inter-school front-end web development competition."
+    },
+    {
+      "title": "Secondary Education · Grade 10",
+      "place": "Sunwal Lotus English Secondary School · Sunwal, Nepal",
+      "date": "2023",
+      "detail": "Completed Grade 10."
+    }
+  ],
+  "languages": "Nepali (native) · English (intermediate) · Hindi (intermediate)"
+}
